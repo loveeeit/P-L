@@ -1,180 +1,304 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta name="google-site-verification" content="cK74nN6AS3W4G6i3-cBKPHlbFz7C0iyYjG_09hig1SA" />
-</head>
-<title>Pasja Lepotilnica</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap">
-<style>
-body, html {
-  height: 100%;
-  font-family: "Quicksand", sans-serif;
-}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">      
+        <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+          
+        <title>Pasji frizer - Pasja lepotilnica</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="resources/img/logo.png" alt="Omnifood logo" class="logo">
+                    <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#features">O nas</a></li>
+                        <li><a href="#works">Naroči</a></li>
+                        <li><a href="#plans">Cenik</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>Dobrodošli v<br>svetu dišeče dlake.</h1>
+                <a class="btn btn-full js--scroll-to-plans" href="#">Pasji frizer</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#">Prikaži več</a>
+            </div>
+            
+        </header>
+        
+        <section class="section-features js--section-features" id="features">
+            <div class="row">
+                <h2>Prijazen in ugoden pasji frizer</h2>
+                <p class="long-copy">
+                    Za nego psa je treba skrbeti redno, saj s tem poskrbite tudi za zdravje svojega ljubljenčka. V Pasji lepotilnici s posebno nežnim celostnim pristopom uredimo, da je pasja dlaka zračna in sijoča, videz psa pa fenomenalen.            
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/glavnik.svg" class="glavnik" alt="Česanje">
+                    <h3>Česanje</h3>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/banja.svg" class="banja" alt="Kopanje">                 
+                    <h3>Kopanje</h3>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/skarje.svg" class="strizenje" alt="Strizenje">
+                    <h3>Striženje</h3>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/tacke.svg" class="nohkti" alt="Strizenje-nohtov">
+                    <h3>Urejanje nohtkov</h3>
+                </div>
+            </div>   
+        </section>
+        
+        <section class="section-meals">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/pl2.jpg" alt="Korean bibimbap with egg and vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/pl3.jpg" alt="Simple italian pizza with cherry tomatoes">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/pl4.jpg" alt="Chicken breast steak with vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/interier.jpg" alt="Autumn pumpkin soup">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/pl2.jpg" alt="Paleo beef steak with vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/pl3.jpg" alt="Healthy baguette with egg and vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/pl4.jpg" alt="Burger with cheddar and bacon">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/interier.jpg" alt="Granola with cherries and strawberries">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        
+        
+        <section class="section-steps" id="works">
+            <div class="row">
+                <h2>Kako se naročiti?</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/kuza.svg" alt="Naroci termin" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p>Sporočite nam katera pasma je kuža, če je mešanček potem vrsto dlake (dolga/kratka) koliko kg ima.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Dopišite željeni datum in uro.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>Dopišite ali potrebujete transport (doplačilo 5 eur)</p>
+                    </div>
+                    
+                    <a href="#" class="btn btn-full">Naroči termin</a>                 
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-plans js--section-plans" id="plans">
+            <div class="row">
+                <h2>Cenik</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+                        <div>
+                            <h3>Osnovna nega</h3>
+                            <p class="plan-price">30€</p>
+                            <p class="plan-price-meal">*za srednjo velikost</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Česanje</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Striženje</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Čiščenje ušes</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Naroči</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Kompletna nega</h3>
+                            <p class="plan-price">40€</p>
+                            <p class="plan-price-meal">*za srednjo velikost</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Čiščenje ušes</li>                               
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Striženje</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Čiščenje ušes</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i> <strong>Kopanje </strong></li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i> <strong>Urejanje nohtkov</strong></li>
 
-.bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: url("images/pl1.jpg");
-  min-height: 75%;
-}
 
-.menu {
-  display: none;
-}
-</style>
-<body>
-
-<!-- Links (sit on top) -->
-<div class="jb-top">
-  <div class="jb-row jb-padding jb-black">
-    <div class="jb-col s3">
-      <a href="#" class="jb-button jb-block jb-black">DOMOV</a>
-    </div>
-    <div class="jb-col s3">
-      <a href="#about" class="jb-button jb-block jb-black">O NAS</a>
-    </div>
-    <div class="jb-col s3">
-      <a href="#menu" class="jb-button jb-block jb-black">CENIK</a>
-    </div>
-    <div class="jb-col s3">
-      <a href="#where" class="jb-button jb-block jb-black">KJE SMO</a>
-    </div>
-  </div>
-</div>
-
-<!-- Header with image -->
-<header class="bgimg jb-display-container jb-grayscale-min" id="home">
-  <div class="jb-display-bottomleft jb-center jb-padding-large jb-hide-small">
-    <span class="jb-tag">Odprti od 9 - 21</span>
-  </div>
-  <div class="jb-display-middle jb-center">
-    <span class="jb-text-white" style="font-size:90px">Pasji<br>Frizer</span>
-  </div>
-  <div class="jb-display-bottomright jb-center jb-padding-large">
-    <span class="jb-tag">Trg Komandanta Staneta 4, Ljubljana</span>
-  </div>
-</header>
-
-<!-- Add a background color and large text to the whole page -->
-<div class="jb-sand jb-grayscale jb-large">
-
-<!-- About Container -->
-<div class="jb-container" id="about">
-  <div class="jb-content" style="max-width:700px">
-    <h5 class="jb-center jb-padding-64"><span class="jb-tag jb-wide">O PASJI LEPOTILNICI</span></h5>
-    <p>V frizerskem salonu za pse Pasja lepotilnica poslujemo z namenom, da vašemu ljubljenčku omogočimo najlepšo izkušnjo nege. Vašega štirinožca ljubeznivo sprejmemo in med nego skrbimo za njegovo dobro počutje.
-Za nego psa je treba skrbeti redno, saj s tem poskrbite tudi za zdravje svojega ljubljenčka. V Pasji lepotilnici s posebno nežnim celostnim pristopom uredimo, da je pasja dlaka zračna in sijoča, videz psa pa fenomenalen.
-</p>
-    <p>Vrata Pasje lepotilnice so odprta vsem psom. In njihovim lastnikom, seveda. Smo ekipa z veliko dobre volje in pozitivnih misli.</p>
-    <div class="jb-panel jb-leftbar jb-light-grey">
-      <p><i>"Vsak pes si zasluži le najboljšo nego, zato sprejemamo pse vseh starosti in pasem, tudi mešančke. Po dogovoru lahko prevzamemo psa na vašem domu, se z njim pred nego sprehodimo in ga po negi vrnemo na dom.</i></p>
-      <p>Lastnica in pasja negovalka: Anica Jenko</p>
-    </div>
-    <img src="images/pl2.jpg" style="width:100%;max-width:1000px" class="jb-margin-top">
-    <p><strong>Odpiralni čas:</strong> Vsak dan 9 - 21.</p>
-    <p><strong>Naslov:</strong> Trg Komandanta Staneta 4</p>
-  </div>
-</div>
-
-<!-- Menu Container -->
-<div class="jb-container" id="menu">
-  <div class="jb-content" style="max-width:700px">
- 
-    <h5 class="jb-center jb-padding-48"><span class="jb-tag jb-wide">CENIK</span></h5>
-  
-    <div class="jb-row jb-center jb-card jb-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="jb-col s6 tablink">NEGA</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="jb-col s6 tablink">DODATNA PONUDBA</div>
-      </a>
-    </div>
-
-    <div id="Eat" class="jb-container menu jb-padding-48 jb-card">
-      <h5>Striženje</h5>
-      <p class="jb-text-grey"> do 10 kg 20 €<br> do 20 kg 30 €<br> nad 30 kg: 40 € </p><br>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Naroči</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Kompleten</h3>
+                            <p class="plan-price">cenik</p>
+                            <p class="plan-price-meal">&nbsp;</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Za točno ceno si oglejte naš cenik.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Prenesi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-form" id="kontakt">
+            <div class="row">
+                <h2>Kontaktirajte nas</h2>
+                <p> Pasja lepotilnica</p> 
+                <br>
+                <p> Trg Komandanta Staneta 4</p>
+                <br>
+                <p>040 487 497</p>
+                <br>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Ime</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Vaše ime" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Vaš mail" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">Kako ste nas našli?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Prijatelj</option>
+                                <option value="search">Facebook</option>
+                                <option value="ad">Oglas</option>
+                                <option value="other">Drugo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Vaše sporočilo</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Pasma in željeni termin"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Pošlji!">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">O nas</a></li>
+                        <li><a href="#">Storitve</a></li>
+                        <li><a href="#">Naroči</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Obljubimo Vam, da bo Vaš kuža v naboljših rokah. Po negi pa bo izgledal sijajno in dišal bo.
+                </p>
+                <p> Pasja Lepotilnica, 2020 
+                </p>
+            </div>
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
     
-      <h5>Česanje</h5>
-      <p class="jb-text-grey">do 10 kg 20 €<br> do 20 kg 30 €<br> nad 30 kg: 40 € </p><br>
+    </body>  
     
-      <h5>Kopanje in sušenje</h5>
-      <p class="jb-text-grey">do 10 kg 20 €<br> do 20 kg 30 €<br> nad 30 kg: 40 € </p><br>
-    
-      <h5>Kompletna nega</h5>
-      <p class="jb-text-grey">do 10 kg 20 €<br> do 20 kg 30 €<br> nad 30 kg: 40 € <br> Redne stranke imajo popust. </p><br>
-    
-      <h5>Nohtki</h5>
-      <p class="jb-text-grey">Striženje nohtov 5,00 €</p>
-    </div>
-
-    <div id="Drinks" class="jb-container menu jb-padding-48 jb-card">
-      <h5>Krtače</h5>
-      <p class="jb-text-grey">Močna za doma 15.50</p><br>
-    
-      <h5>Šampon za nego dlake doma</h5>
-      <p class="jb-text-grey">Močna za doma 15.50</p><br>
-    
-      <h5>Posodica za vodo iz kamna</h5>
-      <p class="jb-text-grey">Močna za doma 15.50</p><br>
-    
-      <h5>Set za nego dlake doma</h5>
-      <p class="jb-text-grey">Močna za doma 15.50</p><br>
-    
-      <h5>Priboljški</h5>
-      <p class="jb-text-grey">Močna za doma 15.50</p>
-    </div>  
-    <img src="images/pl3.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
-  </div>
-</div>
-
-<!-- Contact/Area Container -->
-<div class="jb-container" id="where" style="padding-bottom:32px;">
-  <div class="jb-content" style="max-width:700px">
-    <h5 class="jb-center jb-padding-48"><span class="jb-tag jb-wide">KJE NAS NAJDETE?</span></h5>
-    <p>Trg Komandanta Staneta 4</p>
-    <img src="images/pl4.jpg" class="jb-image" style="width:100%">
-    <p><span class="jb-tag">Dodatno!</span> Ponujamo tudi "Poberi psa na domu, ga uredi in pripelji nazaj."</p>
-    <p><strong>Rezervirajte termin</strong> preko spodnjega obrazca ali pa nas pokličite na 040 487 497:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="jb-input jb-padding-16 jb-border" type="text" placeholder="Ime" required name="Name"></p>
-      <p><input class="jb-input jb-padding-16 jb-border" type="number" placeholder="Pasma" required name="People"></p>
-      <p><input class="jb-input jb-padding-16 jb-border" type="datetime-local" placeholder="Željeni termin" required name="date" value="2017-11-16T20:00"></p>
-      <p><input class="jb-input jb-padding-16 jb-border" type="text" placeholder="Sporočilo" required name="Message"></p>
-      <p><button class="jb-button jb-black" type="submit">POŠLJI SPOROČILO</button></p>
-    </form>
-  </div>
-</div>
-
-<!-- End page content -->
-</div>
-
-<!-- Footer -->
-<footer class="jb-center jb-light-grey jb-padding-48 jb-large">
-  <p>Postavitev spletne strani: <a href="https://jeanbeau.art" title="Jean Beau" target="_blank" class="jb-hover-text-green">Jean Beau</a></p>
-</footer>
-
-<script>
-// Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" jb-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " jb-dark-grey";
-}
-document.getElementById("myLink").click();
-</script>
-
-</body>
 </html>
-
