@@ -134,10 +134,10 @@ h2:after {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #f09e9e;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #f09e9e;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
@@ -200,7 +200,7 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: -webkit-linear-gradient(rgba(88, 88, 88, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -311,29 +311,29 @@ header {
 /* MEALS */
 /* ----------------------------------------------- */
 
-.section-meals {
+.galerija {
     padding: 0;
 }
 
-.meals-showcase {
+.galerija-frizer {
     list-style: none;
     width: 100%;
 }
 
-.meals-showcase li {
+.galerija-frizer li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.meal-photo {
+.frizer-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
+.frizer-photo img {
     opacity: 0.6;
     width: 100%;
     height: auto;
@@ -344,7 +344,7 @@ header {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover {
+.frizer-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
